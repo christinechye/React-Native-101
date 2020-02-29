@@ -14,7 +14,7 @@ The following should be installed (detailed instructions on Facebook's website):
   brew install node 
   brew install watchman
   ```
-  Note: Watchman is a tool by Facebook for watching changes in the file system. It is highly recommended you install it for better performance. 
+Note: Watchman is a tool by Facebook for watching changes in the file system. It is highly recommended you install it for better performance. 
 2. Xcode and CocoaPods 
   `sudo gem install cocoapods`
 3. React Native Command Line Interface 
