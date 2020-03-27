@@ -2,7 +2,7 @@
 How to install React Native and get started with a project. Also tips on how to make your project as a repo in GitHub. 
 
 ## Installation 
-Go to Facebook's installation [tutorial](https://facebook.github.io/react-native/docs/getting-started.html) and follow the steps with these configurations: 
+Go to Facebook's installation [setup](https://reactnative.dev/docs/environment-setup) and follow the steps with these configurations: 
 - React Native CLI Quickstart 
 - Development OS: macOS
 - Target OS: Android or iOS (see notes) 
