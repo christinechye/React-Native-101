@@ -62,7 +62,7 @@ The following steps should help in debugging.
 IMPORTANT: If you get an error “requiring unknown module…” then restart your metro bundler on terminal.
 3. `react-native init sampleApp`
 4. `App.js` will be the file you need to edit at first.
-5. In your project folder, start the metro bundler: 'react-native start'
+5. In your project folder, start the metro bundler: `react-native start`
 6. To run in Android: 
    - `react-native run-android`
    - You need to have the android emulator on from Android Studio running before you run the command, otherwise your computer might crash. 
