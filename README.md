@@ -23,9 +23,9 @@ Note: Watchman is a tool by Facebook for watching changes in the file system. It
    - npx this ships with Node.js, use this command to check the version 
    `npx react-native <command>`
 
-## Installation Debugging 
+## Installation Debugging - How to Permanately Set Your $PATH in Linux
 The following steps should help in debugging. 
-1. Go to the home directory. 
+1. Go to the home directory. Type `nvm which node` to find the path of where node was installed.
 2. Type `react-native -v` to verify the version. 
    - If you get `command not found` then the following steps that edit your `.bash_profile` may help. 
      1. `ls-la` 
@@ -34,15 +34,15 @@ The following steps should help in debugging.
         - `nano` gives you the ability to write/edit it 
      3. To edit: `Control + O` then press `Enter` 
      4. To save/write: `Control + X` and you may need to type `Y` for "yes" to write. 
-     5. Copy and paste the path from the tutorial website and paste this at the bottom IF you are having trouble running it. 
+     5. Copy and paste the path from the tutorial website (or `export PATH="$PATH:/..."`) and paste this at the bottom IF you are having trouble running it. 
         ```
         npm set prefix ~/.npm
         PATH="$HOME/.npm/bin:$PATH"
         PATH="./node_modules/.bin:$PATH"
         ```
-     6. Then, you have to type the following command to link your path to your downloaded components: 
+     6. Then, you have to type the following command to activate the changes in the current shell: 
         `source ~/.bash_profile`
-        - This command sets your path. DO NOT IGNORE.
+        - This command imports the file's settings into the current shel. Now everytime you open your shell, you bash_profile will automatically be "sourced" and you won't need to run this command everytime. DO NOT IGNORE.
         
 ## Starting your Project
 1. Use terminal to change to the directory you want to make your project.
